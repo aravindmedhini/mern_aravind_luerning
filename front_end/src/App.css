@@ -9,7 +9,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #f4f5f6;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -33,30 +33,35 @@
 }
 
 .CreateBook {
-  background-color: #2c3e50;
+  background-color: #f8f8f8;
   min-height: 100vh;
-  color: white;
+  text-align: center;
 }
 
 .ShowBookDetails {
-  background-color: #2c3e50;
+  background-color: #eceef1;
   min-height: 100vh;
-  color: white;
+  text-align: center;
 }
 
 .UpdateBookInfo {
-  background-color: #2c3e50;
+  background-color: #f7f7f7;
   min-height: 100vh;
-  color: white;
+  text-align: center;
+}
+.BookItem {
+  text-align: center;
+  margin-left: 820px;
+  color: red;
 }
 
 .ShowBookList {
-  background-color: #2c3e50;
+  background-color: #f4f5f5;
   height: 100%;
   width: 100%;
   min-height: 100vh;
   min-width: 100px;
-  color: white;
+  text-align: center;
 }
 
 /* BookList Styles */
