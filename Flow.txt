@@ -1,0 +1,30 @@
+https://blog.logrocket.com/mern-stack-tutorial/
+
+
+create a folder with the project name
+using CMD navigate to the the folder and install fallowing dependiences
+-npm init => installs and creates a packege.js page
+-npm i express mongoose body-parser config
+	- body-parser: Allows us to get the data throughout the request
+	- express: Is our main framework
+	- mongoose: Is used to connect and interact with MongoDB
+	- config: This lets you define default parameters for your application
+-npm i -D nodemon (dev dependency optional)
+
+create a app.js page 
+
+Create a mongo db account and connect to it (config/default.json and config/db.js)
+
+
+
+
+Building RESTful APIs
+
+cerate routes/Api/books.js
+
+
+Database model : -
+
+	In order to interact with our database, we need to create a model for each of our resources. 
+ 	So, create a folder called models in the root and inside the models folder, 
+	create a file called Book.js and update it with this:
